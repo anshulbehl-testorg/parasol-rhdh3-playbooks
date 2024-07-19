@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdhgh.test
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: anshulbehl-testorg/parasol-rhdh3-playbooks
+  links:
+    - url: https://devspaces.apps.sandbox-m4.g2pi.p1.openshiftapps.com/#https://github.com/anshulbehl-testorg/parasol-rhdh3-playbooks
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  lifecycle: production
+  owner: anshulbehl
